@@ -1,0 +1,68 @@
+---
+title: "Assignment 3: Incarceration Data"
+author: "Garrett Ruth"
+output: html_document
+---
+
+``` {r setup, include = FALSE}
+source("Analysis.r")
+```
+
+## Introduction
+
+For assignment 3 I focused on the jailed population of white people compared to the jailed population of black people. 
+This is important as comparing actual population proportion of black to white people to the population proportion
+found in jail can show the disparity between incarceration rates as if police action is equal the population 
+proportion should be equal to or at least similar to the proportion found in jail.
+
+## Summary Information
+Some important features from the data set I found the max black jailed population in the west coast was 13143.92 this
+was interesting as in the same region the highest white jailed population was only 7036.59. Compared to the highest 
+populations of each race in the same county (623040 for the highest black population and 2317550 for the highest white population)
+the proportions for each are extremely skewed with the jail population proportion being 1.87 black people to every white person
+while the outside proportion for the same county being .27 black people to every white person
+
+## Charts 1
+``` {r Chart1, echo = FALSE, message = FALSE}
+Graph1
+
+Graph1.5
+```
+
+
+These charts were created from the county data of the most populous city in each region. From this the incredible difference 
+between jail populations is strongly evident simply by observing the Y axis used for each graph as the black jail population 
+graph is so much larger to account for the huge numbers of black people jailed compared to white people.
+
+##Chart 2
+``` {r Chartsecond, echo = FALSE, message = TRUE}
+Graph2
+```
+
+
+This chart shows the relationship between the total jailed white population and the total jailed black population. The graph 
+shows another much more visible way of seeing just how close the numbers are nationwide. When viewing this graph its important
+to note that currently in the US white people make up 60% of the population compared to just 12% by black people. If people were
+arrested fairly the white jail population should be 5 times that if the black jailed population but the graph shows just how closely
+equal the actual jailed population is.
+
+##Map Chart
+``` {r Chart2, echo = FALSE, message = TRUE}
+ColorMap
+```
+
+
+From this map we are able to see that, atleast in California, the biggest disparity in black jailed versus white jailed population proportions  
+as seen in and around the major population centers in California. Surprisingly the more rural counties in California actually have much 
+lower proportions compared to the more liberal city centers.
+
+
+
+
+
+
+
+
+
+
+
