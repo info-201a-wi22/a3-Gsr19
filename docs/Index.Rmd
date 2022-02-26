@@ -4,6 +4,7 @@ author: "Garrett Ruth"
 output: html_document
 ---
 
+
 ``` {r setup, include = FALSE}
 source("Analysis.r")
 ```
@@ -34,7 +35,7 @@ These charts were created from the county data of the most populous city in each
 between jail populations is strongly evident simply by observing the Y axis used for each graph as the black jail population 
 graph is so much larger to account for the huge numbers of black people jailed compared to white people.
 
-##Chart 2
+## Chart 2
 ``` {r Chartsecond, echo = FALSE, message = TRUE}
 Graph2
 ```
@@ -46,7 +47,7 @@ to note that currently in the US white people make up 60% of the population comp
 arrested fairly the white jail population should be 5 times that if the black jailed population but the graph shows just how closely
 equal the actual jailed population is.
 
-##Map Chart
+## Map Chart
 ``` {r Chart2, echo = FALSE, message = TRUE}
 ColorMap
 ```
